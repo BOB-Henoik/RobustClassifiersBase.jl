@@ -1,5 +1,8 @@
 module AbstractRobustClassifiers
 
-# Write your package code here.
+export 
+    DominanceMatrix, DominancePair, IncomparablePair, Prediction
+
+include("Types.jl")
 
 end
