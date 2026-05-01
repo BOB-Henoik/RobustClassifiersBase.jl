@@ -1,6 +1,6 @@
-using AbstractRobustClassifiers
+using RobustClassifiersBase
 using Test
 
-@testset "AbstractRobustClassifiers.jl" begin
+@testset "RobustClassifiersBase.jl" begin
     # Write your tests here.
 end

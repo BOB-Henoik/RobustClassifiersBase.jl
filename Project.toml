@@ -1,4 +1,4 @@
-name = "AbstractRobustClassifiers"
+name = "RobustClassifiersBase"
 uuid = "622d6ea6-a39e-4f93-9edb-f7b18bf55eb6"
 version = "1.1.1"
 authors = ["Hénoïk Willot"]
