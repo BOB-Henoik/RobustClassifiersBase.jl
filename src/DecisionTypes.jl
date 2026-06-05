@@ -55,7 +55,7 @@ struct Prediction
 		end
 		undominated::Vector{Int64} = Int64[]
 		for y in 1:size(dom,1)
-			any(dom[y, :]) && push!(undominated, y)
+			!any(dom[:, y]) && push!(undominated, y)
 		end
 		new(undominated, dominance_pairs, incomparable_pairs)
 	end
